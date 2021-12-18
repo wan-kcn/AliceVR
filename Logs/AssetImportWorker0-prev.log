@@ -1,16 +1,33 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.1 (Build 20G224)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
+<<<<<<< Updated upstream
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16271 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
 D:\unity\Editor\Unity.exe
+=======
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> Stashed changes
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 D:/unity/AliceVR
 -logFile
 Logs/AssetImportWorker0.log
@@ -48,11 +65,52 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (852ms)
 		BeginReloadAssembly (44ms)
+=======
+/Users/natawatpaksiriset/Documents/GitHub/AliceVR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50126
+Successfully changed project path to: /Users/natawatpaksiriset/Documents/GitHub/AliceVR
+/Users/natawatpaksiriset/Documents/GitHub/AliceVR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 118.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 15.35 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/natawatpaksiriset/Documents/GitHub/AliceVR/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-18 13:37:52.112 Unity[1714:40970] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-12-18 13:37:52.112 Unity[1714:40970] Metal devices available: 1
+2021-12-18 13:37:52.112 Unity[1714:40970] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-12-18 13:37:52.113 Unity[1714:40970] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56714
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003470 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.24 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (47ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (369ms)
 			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,19 +118,36 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
 			SetupLoadedEditorAssemblies (166ms)
+=======
+		EndReloadAssembly (582ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (252ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
+=======
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.003741 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +158,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1495ms)
 		BeginReloadAssembly (129ms)
+=======
+Registered in 0.020121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (170ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (19ms)
 		EndReloadAssembly (1310ms)
 			LoadAssemblies (81ms)
@@ -95,19 +184,810 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (56ms)
 			SetupLoadedEditorAssemblies (772ms)
+=======
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1069ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (106ms)
 				ProcessInitializeOnLoadAttributes (555ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (4ms)
+=======
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (846ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (1ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.040224 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.116626 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
 ========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.01 ms.
+Unloading 4379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.0 MB.
+System memory in use after: 369.0 MB.
+
+Unloading 313 unused Assets to reduce memory usage. Loaded Objects now: 4855.
+Total: 7.180991 ms (FindLiveObjects: 0.485113 ms CreateObjectMapping: 0.191347 ms MarkObjects: 5.027020 ms  DeleteObjects: 1.476196 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b28320f1775e3a489adb19ba4f0715') in 1.096996 seconds 
+  Import took 1.105770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004581 seconds.
+  path: Assets/plants2/MARMO LOD1.obj
+  artifactKey: Guid(c53e2ff4f6c79fa4c9721a1cbacf11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plants2/MARMO LOD1.obj using Guid(c53e2ff4f6c79fa4c9721a1cbacf11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1798dc5c5c1af48e00edf5c6114ca4eb') in 1.882208 seconds 
+  Import took 1.893215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005247 seconds.
+  path: Assets/Stylized Mushroom/MushRoom3.tga
+  artifactKey: Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom3.tga using Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a184041d8ce3adf79b5fce51f3ab065c') in 0.022337 seconds 
+  Import took 0.038003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All3.obj
+  artifactKey: Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All3.obj using Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabc9e02c40141b034dce004b415b79d') in 0.095667 seconds 
+  Import took 0.111240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All1.obj
+  artifactKey: Guid(d753f96404dfc7e439e32d9cfdf6d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All1.obj using Guid(d753f96404dfc7e439e32d9cfdf6d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32323f003fbabb95de1e5fc6852399e7') in 0.027520 seconds 
+  Import took 0.037610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All2.obj
+  artifactKey: Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All2.obj using Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c852f3944bb9c23b0be712f196ad315') in 0.038795 seconds 
+  Import took 0.049681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/plants2/MARMO LOD 0.5.obj
+  artifactKey: Guid(5e4f0092c47fe7447a4fa6552f6e24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plants2/MARMO LOD 0.5.obj using Guid(5e4f0092c47fe7447a4fa6552f6e24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b1a52ba4346d56528c58ab2725894b') in 0.041467 seconds 
+  Import took 0.055947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All2.obj
+  artifactKey: Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All2.obj using Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c852f3944bb9c23b0be712f196ad315') in 0.033290 seconds 
+  Import took 0.047050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Stylized Mushroom/MushRoom2.tga
+  artifactKey: Guid(22fa206fa7813a041a12b281cfaee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom2.tga using Guid(22fa206fa7813a041a12b281cfaee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf1b8ea805fc136867d3a2b61a36612') in 0.016811 seconds 
+  Import took 0.032287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016884 seconds.
+  path: Assets/Stylized Mushroom/Prefab
+  artifactKey: Guid(420f18da067eed84486e09a7b2ff286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab using Guid(420f18da067eed84486e09a7b2ff286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45472cd07782e651f2398a88130bc8af') in 0.001508 seconds 
+  Import took 0.015064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.009799 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab
+  artifactKey: Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab using Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42692cbdf850495ddb61d23ddd367c4') in 1.230148 seconds 
+  Import took 1.240283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003710 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a41153fc8f2efd8ce8d2632625b340') in 0.021599 seconds 
+  Import took 0.033103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2843c3e966d8437aff6999522b7dfa55') in 0.018138 seconds 
+  Import took 0.031820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.910395 seconds.
+  path: Assets/Stylized Mushroom/Materials
+  artifactKey: Guid(5ebf24b0020d22e44adc305fed08e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials using Guid(5ebf24b0020d22e44adc305fed08e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c1f2d5b8caa1ce10522718659cde7d') in 0.001246 seconds 
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070115 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom1.mat
+  artifactKey: Guid(481a860f6e18aaa4987377d42db93e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom1.mat using Guid(481a860f6e18aaa4987377d42db93e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53cbe86848380317af9a5a20ff94a9d') in 0.374136 seconds 
+  Import took 0.382718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003500 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom2.mat
+  artifactKey: Guid(e654a3066dff72f4c92bcf01157d85d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom2.mat using Guid(e654a3066dff72f4c92bcf01157d85d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdc6776f6ce4d170e00d585b32ae005') in 0.017611 seconds 
+  Import took 0.030403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom3.mat
+  artifactKey: Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom3.mat using Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103443afbadd44590aa53bd8ac68473b') in 0.016807 seconds 
+  Import took 0.032502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.965072 seconds.
+  path: Assets/Stylized Mushroom/Shader
+  artifactKey: Guid(535d427112b960247818885b52f6a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Shader using Guid(535d427112b960247818885b52f6a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab018554aed95262c9bc78c64a4fbe63') in 0.002563 seconds 
+  Import took 0.018133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.445595 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9e92ba4a0b457ab17be3ce1d1b481') in 0.027724 seconds 
+  Import took 0.039016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.047506 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5a01988a85d19223ac58375da65341') in 0.012716 seconds 
+  Import took 0.026735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.355130 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ae412a27439ba23dd3c452d89c66f3') in 0.192347 seconds 
+  Import took 0.201580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.234661 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370b7a652dbf935a5948b4c940ab01ce') in 0.022027 seconds 
+  Import took 0.036205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.556963 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.tga
+  artifactKey: Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.tga using Guid(9a7d924352030f6499cf318afee54125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141637302db0ab8ed38e8e208c56e803') in 0.015974 seconds 
+  Import took 0.029710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.453915 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Noise_Clouds1.jpg
+  artifactKey: Guid(4ecd75c0d3585f34984c98cf76fa5458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Noise_Clouds1.jpg using Guid(4ecd75c0d3585f34984c98cf76fa5458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b67eefc7f5cdbf708acb36cb7ffa89') in 1.084668 seconds 
+  Import took 1.134863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.477244 seconds.
+  path: Assets/plants2/Materials/Textures/emit.png
+  artifactKey: Guid(359699112fa0faa46abffb004e8746f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plants2/Materials/Textures/emit.png using Guid(359699112fa0faa46abffb004e8746f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d34ef54999c44d1be8103ec4d869dc') in 1.039013 seconds 
+  Import took 1.048151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003676 seconds.
+  path: Assets/plants2/Materials/Textures/1_normals.png
+  artifactKey: Guid(deb709e32f9f03642a1cbe0c9074e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plants2/Materials/Textures/1_normals.png using Guid(deb709e32f9f03642a1cbe0c9074e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11093d9945aa6dd23d8005cae1baa640') in 0.024962 seconds 
+  Import took 0.033886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.010183 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All1.obj
+  artifactKey: Guid(d753f96404dfc7e439e32d9cfdf6d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All1.obj using Guid(d753f96404dfc7e439e32d9cfdf6d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ae26ac3ea09e074cee32504630922c') in 0.051117 seconds 
+  Import took 0.061077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001485 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All3.obj
+  artifactKey: Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All3.obj using Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a83ea0b39ff8275f67531d8d1fc3a6') in 0.031131 seconds 
+  Import took 0.041570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Stylized Mushroom/mushroom_All2.obj
+  artifactKey: Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/mushroom_All2.obj using Guid(d4858c071646fad43803c0c1a10d1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb340321e84608b88a9d66813cd594') in 0.031638 seconds 
+  Import took 0.042785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.888534 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom1.mat
+  artifactKey: Guid(481a860f6e18aaa4987377d42db93e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom1.mat using Guid(481a860f6e18aaa4987377d42db93e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae82cbfd590b0175a0d4b34413c6609') in 0.028851 seconds 
+  Import took 0.038447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom2.mat
+  artifactKey: Guid(e654a3066dff72f4c92bcf01157d85d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom2.mat using Guid(e654a3066dff72f4c92bcf01157d85d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dcc2b19526c8b87a282fa5465576e7') in 0.021330 seconds 
+  Import took 0.032004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom3.mat
+  artifactKey: Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom3.mat using Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9851da89de7a2e39961194cf30bb0e') in 0.019650 seconds 
+  Import took 0.029481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.468358 seconds.
+  path: Assets/TreeCollection
+  artifactKey: Guid(7dcb90f3ebc818f4a96914d5299d5d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeCollection using Guid(7dcb90f3ebc818f4a96914d5299d5d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004105fd5a07cd35aec5440896859873') in 0.001219 seconds 
+  Import took 0.013187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011107 seconds.
+  path: Assets/TreeCollection
+  artifactKey: Guid(7dcb90f3ebc818f4a96914d5299d5d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeCollection using Guid(7dcb90f3ebc818f4a96914d5299d5d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004105fd5a07cd35aec5440896859873') in 0.001084 seconds 
+  Import took 0.012210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.352541 seconds.
+  path: Assets/Stylized Mushroom/demoSettings.lighting
+  artifactKey: Guid(1a46a1116266042f198a1bbae41224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/demoSettings.lighting using Guid(1a46a1116266042f198a1bbae41224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f596df145598521e9db202f9e294508e') in 0.226898 seconds 
+  Import took 0.238443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.865232 seconds.
+  path: Assets/Stylized Mushroom/demo.unity
+  artifactKey: Guid(c972832c72098db4daab63f82700976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/demo.unity using Guid(c972832c72098db4daab63f82700976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b124e3811b8e39b32f52dd9ab27a1d4f') in 0.003055 seconds 
+  Import took 0.013537 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.547 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2548ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (186ms)
+		EndReloadAssembly (2138ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (863ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 381.1 MB.
+System memory in use after: 380.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4957.
+Total: 5.269650 ms (FindLiveObjects: 0.431985 ms CreateObjectMapping: 0.164641 ms MarkObjects: 4.047932 ms  DeleteObjects: 0.623928 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.090421 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom1 1.mat
+  artifactKey: Guid(698453669274e4d31956b1997d0f16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom1 1.mat using Guid(698453669274e4d31956b1997d0f16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0219cd8604bad2078332ee274c41bf') in 0.178062 seconds 
+  Import took 0.188346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom2 1.mat
+  artifactKey: Guid(85072d0739b004ac0a0d16ceafc4e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom2 1.mat using Guid(85072d0739b004ac0a0d16ceafc4e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4c07cfeb16b6a707b2b9f0b00343ff') in 0.022879 seconds 
+  Import took 0.034562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.126830 seconds.
+  path: Assets/Stylized Mushroom
+  artifactKey: Guid(b60d96e68164b42d78afcfc2d16f6c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom using Guid(b60d96e68164b42d78afcfc2d16f6c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c496ee01b66c2d49996132aebfc520b') in 0.004174 seconds 
+  Import took 0.015656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.576736 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.png
+  artifactKey: Guid(f9c4ebaa46adc4f9ea25dd944840d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.png using Guid(f9c4ebaa46adc4f9ea25dd944840d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e895428b59147a708fbf83de13e3aa7a') in 0.050755 seconds 
+  Import took 0.061271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.361636 seconds.
+  path: Assets/Stylized Mushroom/MushRoom1.png
+  artifactKey: Guid(f9c4ebaa46adc4f9ea25dd944840d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom1.png using Guid(f9c4ebaa46adc4f9ea25dd944840d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c71c2e624b1743f34530fe5705475') in 0.019429 seconds 
+  Import took 0.030835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.442503 seconds.
+  path: Assets/Stylized Mushroom/MushRoom2.png
+  artifactKey: Guid(c73893417f59943fb8c7a31182fc9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom2.png using Guid(c73893417f59943fb8c7a31182fc9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f2e0de2c4bc344e515d3d826c51f9e') in 0.016598 seconds 
+  Import took 0.026322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.710824 seconds.
+  path: Assets/Stylized Mushroom/MushRoom2.png
+  artifactKey: Guid(c73893417f59943fb8c7a31182fc9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom2.png using Guid(c73893417f59943fb8c7a31182fc9451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5884b02f4fc2eec3f80fc71588ab5d2d') in 0.014003 seconds 
+  Import took 0.025842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.673319 seconds.
+  path: Assets/Stylized Mushroom/MushRoom3.tga
+  artifactKey: Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom3.tga using Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d929720578ff5b32509019aa51ac5c') in 0.021832 seconds 
+  Import took 0.031426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.655584 seconds.
+  path: Assets/Stylized Mushroom/MushRoom3.tga
+  artifactKey: Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/MushRoom3.tga using Guid(57d466a1374f5b4429b4ed7ad29337e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dae7121fade10a5b0f19c6620e1237c') in 0.018418 seconds 
+  Import took 0.029829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.982698 seconds.
+  path: Assets/Scenes/CaveScene.unity
+  artifactKey: Guid(fce88d793cbcfac4ba125feade9e7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CaveScene.unity using Guid(fce88d793cbcfac4ba125feade9e7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad54db78278122c494a7d293a56e212') in 0.017734 seconds 
+  Import took 0.029054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.760764 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab
+  artifactKey: Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab using Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597a8536f3523dad68caea1b1577646') in 0.046981 seconds 
+  Import took 0.055646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.981792 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffcb916b58721b5d22e77f32ac23531') in 0.022337 seconds 
+  Import took 0.032607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.386792 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom1 1.mat
+  artifactKey: Guid(698453669274e4d31956b1997d0f16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom1 1.mat using Guid(698453669274e4d31956b1997d0f16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36cb89424b253cb0577ae07b837f31a') in 0.030910 seconds 
+  Import took 0.040374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom4.mat
+  artifactKey: Guid(d6bd908169947461195410ff5e348248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom4.mat using Guid(d6bd908169947461195410ff5e348248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8675503dd7efdcf9187b268d1588663') in 0.018651 seconds 
+  Import took 0.026664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom3 1.mat
+  artifactKey: Guid(854672b8a7eb7488e82daec0a568db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom3 1.mat using Guid(854672b8a7eb7488e82daec0a568db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65906141706c3dfa92a2a22c5c59b91b') in 0.015820 seconds 
+  Import took 0.028168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Stylized Mushroom/Materials/MushRoom2 1.mat
+  artifactKey: Guid(85072d0739b004ac0a0d16ceafc4e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Materials/MushRoom2 1.mat using Guid(85072d0739b004ac0a0d16ceafc4e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738c603cf1f23e1597ec1e60c87856fd') in 0.020827 seconds 
+  Import took 0.030696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.164696 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba96e309813b217ed041a57c0866db') in 0.017174 seconds 
+  Import took 0.026316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.205361 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950edb43aad53dab7ed344828d31f51f') in 0.017207 seconds 
+  Import took 0.028606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134879 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9bb40f4c3dad4f8023b22ef14763dd') in 0.016578 seconds 
+  Import took 0.026869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.877100 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93805db2485af3d7c6144aa7fdb3678') in 0.018624 seconds 
+  Import took 0.027994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.166886 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5966090cb855ef30c9f95e87f2ab4bb') in 0.021477 seconds 
+  Import took 0.031535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.988639 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab
+  artifactKey: Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2.prefab using Guid(555628e97d23ecc419d3c0fa06b08777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b78a5b5e87d6eb1f290220929b3a98c') in 0.016406 seconds 
+  Import took 0.027620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.069676 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All2 1.prefab
+  artifactKey: Guid(62f461b2f53bc48e6963cbe61aa29e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All2 1.prefab using Guid(62f461b2f53bc48e6963cbe61aa29e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ff9ed234b94953db653d08509c17cd') in 0.024680 seconds 
+  Import took 0.034695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.368931 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d50ca109afc4fffaf38d4476949c99d') in 0.021797 seconds 
+  Import took 0.035360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.823011 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387cbe16a6df6d6f5bdf70d7c9aa7c5') in 0.017847 seconds 
+  Import took 0.031761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.242986 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036fb6aedf95674d0b177bc288e837e0') in 0.018085 seconds 
+  Import took 0.031699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.399178 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead726b43de43bf19813c37605e6c7e6') in 0.018593 seconds 
+  Import took 0.035205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.027947 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413fa2ecb525322edb3c94e86b9e1c6e') in 0.018566 seconds 
+  Import took 0.031751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.382190 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6efbc6b33f055cf5c73e449dd66f5') in 0.017015 seconds 
+  Import took 0.028274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.075606 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f64f21d08690d973ae5c5d2896a28c6') in 0.016489 seconds 
+  Import took 0.028553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.272230 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13306fa5a15488e86f5e23495ebfaf98') in 0.016011 seconds 
+  Import took 0.027882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.788480 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3434dbacf884f286d239944aa95f65') in 0.016198 seconds 
+  Import took 0.028335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.386370 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bbb225322e750a213847a67219deb2') in 0.017924 seconds 
+  Import took 0.031158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143523 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54886db47d06e7aedf1539e4f71adcb0') in 0.017333 seconds 
+  Import took 0.028267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.702159 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ca526600fb4bc1a525eba2351fa73b') in 0.015674 seconds 
+  Import took 0.028444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.151483 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca727e5fc32197dc7851b36d0f9af4bb') in 0.013228 seconds 
+  Import took 0.024354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.481881 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8aa61fa4d1fc5c4b25e78d29700ac4') in 0.017210 seconds 
+  Import took 0.033139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.515656 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebb5745e112676f21e49912a6cf292a') in 0.014940 seconds 
+  Import took 0.024201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.230780 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da29e948f0fe8289af2698a38a207bb8') in 0.017595 seconds 
+  Import took 0.028699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.836232 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670a7c3bba8348b340d21727087a55f2') in 0.017850 seconds 
+  Import took 0.029143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.169256 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b238c9908148845727a58af053489751') in 0.017027 seconds 
+  Import took 0.028621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.587121 seconds.
+  path: Assets/HQ Rocks/Textures/Ground_N.png
+  artifactKey: Guid(ee501dbca0eb86944b45707b2cafea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Rocks/Textures/Ground_N.png using Guid(ee501dbca0eb86944b45707b2cafea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb41762531ea3eebc9b2c3f5c1400dc9') in 0.014861 seconds 
+  Import took 0.025779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa925473ce7b153e03b9d5ca4b1886a') in 0.407485 seconds 
+  Import took 0.416457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.985059 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eeca2fedadd8c8e2b96460824cf504') in 0.021133 seconds 
+  Import took 0.033516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.206395 seconds.
+  path: Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab
+  artifactKey: Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Mushroom/Prefab/mushroom_All1.prefab using Guid(4f08c1e18e3fd2b438baf97a89b44f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559e2be5a3b344e558a066c8994f8a31') in 0.023162 seconds 
+  Import took 0.035810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.967965 seconds.
+  path: Assets/SinuousShrooms/SampleScene.unity
+  artifactKey: Guid(8f739aa89e660024ab394c1714e44c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/SampleScene.unity using Guid(8f739aa89e660024ab394c1714e44c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94def2185201ae8b86ac223661727eed') in 0.003839 seconds 
+  Import took 0.015564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.076401 seconds.
+  path: Assets/SinuousShrooms/SampleScene_Ind.unity
+  artifactKey: Guid(2de11bf0e9757fd4fafb71905de8247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/SampleScene_Ind.unity using Guid(2de11bf0e9757fd4fafb71905de8247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07a368997ac96b9eee2285b3e7bf9fd') in 0.002800 seconds 
+  Import took 0.014785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.043382 seconds.
+  path: Assets/SinuousShrooms/ViewerScene.unity
+  artifactKey: Guid(2bf6a92f5ff2ca843878d84bb40b543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/ViewerScene.unity using Guid(2bf6a92f5ff2ca843878d84bb40b543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b272587b53dc07b5f45560401b3685') in 0.002373 seconds 
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.916723 seconds.
+  path: Assets/SinuousShrooms/Shaders
+  artifactKey: Guid(1f74a4b2c8dcb874797b6eb1aef7b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Shaders using Guid(1f74a4b2c8dcb874797b6eb1aef7b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724ba90ace17a197b04465db771cc7d3') in 0.002392 seconds 
+  Import took 0.014223 seconds .
+
+========================================================================
+<<<<<<< Updated upstream
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
@@ -231,10 +1111,611 @@ Received Import Request.
   artifactKey: Guid(eefef9a4369c4b74b823adfd4e8cec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/chic's assets using Guid(eefef9a4369c4b74b823adfd4e8cec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd3352ff1afda7397ab69200de93c36') in 0.005831 seconds 
   Import took 0.011677 seconds .
+=======
+Received Import Request.
+  Time since last request: 0.766283 seconds.
+  path: Assets/SinuousShrooms/Scripts
+  artifactKey: Guid(617f835afb6aceb41bf5ba24acd499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Scripts using Guid(617f835afb6aceb41bf5ba24acd499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ced336b75660f3220cabd3a318d96') in 0.002196 seconds 
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.821063 seconds.
+  path: Assets/SinuousShrooms/Models
+  artifactKey: Guid(f692479b0b6ec004e8ea4c9a0fe33ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models using Guid(f692479b0b6ec004e8ea4c9a0fe33ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6733cd333f8c91997e78a2b4e2b607f') in 0.001332 seconds 
+  Import took 0.012832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481376 seconds.
+  path: Assets/SinuousShrooms/Prefabs
+  artifactKey: Guid(4edd182612face640b2419ddc4be8792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs using Guid(4edd182612face640b2419ddc4be8792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8e6ff82a7f5f6137ec01946eb6309e') in 0.001770 seconds 
+  Import took 0.012956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050377 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom1.prefab
+  artifactKey: Guid(3829a4e580ff6464d98ae3c7b4ce735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom1.prefab using Guid(3829a4e580ff6464d98ae3c7b4ce735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd107cddb85b41d0e75bf82341b815acc') in 0.031390 seconds 
+  Import took 0.040875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_03.prefab
+  artifactKey: Guid(403cae19b9055ab47b3594faaf5da89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_03.prefab using Guid(403cae19b9055ab47b3594faaf5da89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7b71b8d98d6a6535e41535888d83de') in 0.022117 seconds 
+  Import took 0.030281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_04.prefab
+  artifactKey: Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_04.prefab using Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772198d074b77fb2c0094831b006df6e') in 0.022121 seconds 
+  Import took 0.032689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_01.prefab
+  artifactKey: Guid(f3659d1c58e928f4287f14b97b5cd15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_01.prefab using Guid(f3659d1c58e928f4287f14b97b5cd15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c4dd02b71d0875d7b725e867b8e004') in 0.024987 seconds 
+  Import took 0.037714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom2.prefab
+  artifactKey: Guid(fbdbb821504812547aabe35c18c1b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom2.prefab using Guid(fbdbb821504812547aabe35c18c1b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f51157e72f5ac99bebb4d1ba789f1b7') in 0.020905 seconds 
+  Import took 0.032249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_02.prefab
+  artifactKey: Guid(b0d141d938dc75f498b07e5259f0b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_02.prefab using Guid(b0d141d938dc75f498b07e5259f0b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdbb176ec48976e59eba1ee2fed7920') in 0.021500 seconds 
+  Import took 0.033230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb185740403927ce2607560b9b8a10a5') in 0.019395 seconds 
+  Import took 0.028972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom3.prefab
+  artifactKey: Guid(e2d88ada92e9c8842ad0ce726a9d3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom3.prefab using Guid(e2d88ada92e9c8842ad0ce726a9d3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec0a4dd153593c4e1b027fbbf9980e3') in 0.018118 seconds 
+  Import took 0.031742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011298 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb185740403927ce2607560b9b8a10a5') in 0.019304 seconds 
+  Import took 0.031125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.221278 seconds.
+  path: Assets/SinuousShrooms/Models/Shroom_01.FBX
+  artifactKey: Guid(68cda060b749c3f4ab26daa34818fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Shroom_01.FBX using Guid(68cda060b749c3f4ab26daa34818fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2f5dcb149a6052f0e1e4d7ae6ca132') in 0.278400 seconds 
+  Import took 0.287072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003604 seconds.
+  path: Assets/SinuousShrooms/Models/Shroom_03.FBX
+  artifactKey: Guid(b6aa70d22c31d124d839f7a4e821e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Shroom_03.FBX using Guid(b6aa70d22c31d124d839f7a4e821e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c586e6ade15111f37d988ba110342f') in 0.076280 seconds 
+  Import took 0.085463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/SinuousShrooms/Models/Shroom_02.FBX
+  artifactKey: Guid(7bd33b7650727254da297fb3551f07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Shroom_02.FBX using Guid(7bd33b7650727254da297fb3551f07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c96db874b07a84f1e3baa1dd3cfce') in 0.082525 seconds 
+  Import took 0.092223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.181314 seconds.
+  path: Assets/SinuousShrooms/Models/Materials
+  artifactKey: Guid(533252506e6a27c4aab4e2aeb60e1bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials using Guid(533252506e6a27c4aab4e2aeb60e1bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a787276dfddde3c6c001878e2e193ed9') in 0.002491 seconds 
+  Import took 0.013713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079343 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Shroom_01.mat
+  artifactKey: Guid(d8ee168e54b6a1448bf5b8783bd11651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Shroom_01.mat using Guid(d8ee168e54b6a1448bf5b8783bd11651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811b98bc00918a12828c983c22dc543c') in 0.012663 seconds 
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Shroom_04.mat
+  artifactKey: Guid(e62aa16199c0e13499344f24a4f60b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Shroom_04.mat using Guid(e62aa16199c0e13499344f24a4f60b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8758aa39874225624b3519510760347d') in 0.010957 seconds 
+  Import took 0.019305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Shroom_02.mat
+  artifactKey: Guid(85a68d91cc157c84981e6dafc882335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Shroom_02.mat using Guid(85a68d91cc157c84981e6dafc882335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482363b4d0e3d7ffc0cd4f49b1c779d3') in 0.023685 seconds 
+  Import took 0.037203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Shroom_03.mat
+  artifactKey: Guid(95c245d422fec23498daec41e7292629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Shroom_03.mat using Guid(95c245d422fec23498daec41e7292629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5567585630521dec2ea71b331c659530') in 0.015241 seconds 
+  Import took 0.023346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.226841 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures
+  artifactKey: Guid(dacb4ec4f207e1848b9fa57b586502a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures using Guid(dacb4ec4f207e1848b9fa57b586502a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13be67aa4996cc01d00b7b5cc7c3f529') in 0.002107 seconds 
+  Import took 0.012643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314052 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps
+  artifactKey: Guid(96244fb5920cf9d4fbf39d4df3501bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps using Guid(96244fb5920cf9d4fbf39d4df3501bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2e62c30ba12d8bc4287b0b6e65eb3b') in 0.001974 seconds 
+  Import took 0.013103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.162147 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_01.png
+  artifactKey: Guid(abe7d9fc72c0350448baeb3cd1b1a543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_01.png using Guid(abe7d9fc72c0350448baeb3cd1b1a543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b750cc6db4f4032c7393b72dc56e5') in 0.010305 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_02.png
+  artifactKey: Guid(05993d19b92979549af502314c014b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_02.png using Guid(05993d19b92979549af502314c014b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8be94c068309465faa0a97ade31c77') in 0.010818 seconds 
+  Import took 0.020969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_04.png
+  artifactKey: Guid(f3bf19f07c873fa4ca0b80361a8bc855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_04.png using Guid(f3bf19f07c873fa4ca0b80361a8bc855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8106efaf01012a0b6ea8d7a83b773e7') in 0.015116 seconds 
+  Import took 0.026132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_03.png
+  artifactKey: Guid(83c34132a1fb10e42a8d79b305db6e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_03.png using Guid(83c34132a1fb10e42a8d79b305db6e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030951ffe9459616dbcbcd8477147fa') in 0.016208 seconds 
+  Import took 0.027330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_05.png
+  artifactKey: Guid(eeb828b350fc74d4c978009be959a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_05.png using Guid(eeb828b350fc74d4c978009be959a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317021b8582f01ae49cfc70f12e9832') in 0.010723 seconds 
+  Import took 0.019468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004754 seconds.
+  path: Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_05.png
+  artifactKey: Guid(eeb828b350fc74d4c978009be959a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Models/Materials/Textures/Caps/ShroomTop_05.png using Guid(eeb828b350fc74d4c978009be959a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317021b8582f01ae49cfc70f12e9832') in 0.009528 seconds 
+  Import took 0.018491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 639.855410 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f523dbde1dd23dbeff85e43108c8c2') in 0.031581 seconds 
+  Import took 0.042179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009717 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f523dbde1dd23dbeff85e43108c8c2') in 0.017762 seconds 
+  Import took 0.027612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.879456 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7997b1925b453b5d1bc83afe5035ed') in 0.025176 seconds 
+  Import took 0.035770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_04.prefab
+  artifactKey: Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_04.prefab using Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cb99b8c74db3567e71c49db2d08c83') in 0.016192 seconds 
+  Import took 0.023602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7997b1925b453b5d1bc83afe5035ed') in 0.015493 seconds 
+  Import took 0.023100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.306629 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_04.prefab
+  artifactKey: Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_04.prefab using Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cb99b8c74db3567e71c49db2d08c83') in 0.015397 seconds 
+  Import took 0.025512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.157031 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa05258b69ffaf50f28b162fb076438') in 0.452337 seconds 
+  Import took 0.466179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.720200 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e24b10c07f691b801394e0c2a37b67b') in 0.027334 seconds 
+  Import took 0.040930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Shroom_04.prefab
+  artifactKey: Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Shroom_04.prefab using Guid(be851a8515ac2f241bf3e4061b58371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c55068faf2365398e5674d74d448e4') in 0.017700 seconds 
+  Import took 0.028433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 473.662121 seconds.
+  path: Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab
+  artifactKey: Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SinuousShrooms/Prefabs/Cluster_Shroom4.prefab using Guid(2cb4cb515bfe3564fa857504c39ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f174605be224cb8b48f12c2a7808830') in 0.027241 seconds 
+  Import took 0.038722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 909.850822 seconds.
+  path: Assets/MC dirt stone wall free sample/MC dirt stone wall free sample
+  artifactKey: Guid(5b283c48ea167234198a19f0902a9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/MC dirt stone wall free sample using Guid(5b283c48ea167234198a19f0902a9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11544447cc3588fa6f32b5bb04d45f87') in 0.002156 seconds 
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095480 seconds.
+  path: Assets/MC dirt stone wall free sample/MC dirt stone wall free sample/LightingData.asset
+  artifactKey: Guid(6593198e2db57c6478053313ec2bfb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/MC dirt stone wall free sample/LightingData.asset using Guid(6593198e2db57c6478053313ec2bfb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df54fe3d5761599e17ff5635b48e7d9f') in 0.204023 seconds 
+  Import took 0.213395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/MC dirt stone wall free sample/MC dirt stone wall free sample/ReflectionProbe-0.exr
+  artifactKey: Guid(5c7c8946b5992af458147e9db9f1f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/MC dirt stone wall free sample/ReflectionProbe-0.exr using Guid(5c7c8946b5992af458147e9db9f1f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd47bda08871814a191fc2293b7c07e6') in 1.107418 seconds 
+  Import took 1.115718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.856978 seconds.
+  path: Assets/MC dirt stone wall free sample
+  artifactKey: Guid(c64a1ea4d69b44fda9ee92152724ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample using Guid(c64a1ea4d69b44fda9ee92152724ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49de3adf6c121919a34a565e77d2b3d8') in 0.001804 seconds 
+  Import took 0.011633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268076 seconds.
+  path: Assets/MC dirt stone wall free sample/texture
+  artifactKey: Guid(9025f5406ab70524d871c0a68984fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture using Guid(9025f5406ab70524d871c0a68984fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de4032ffc8d019c2aca77425ca768b0') in 0.001486 seconds 
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.609005 seconds.
+  path: Assets/MC dirt stone wall free sample/model
+  artifactKey: Guid(ff4e99845adddf741bef3e74ede45383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/model using Guid(ff4e99845adddf741bef3e74ede45383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82221f700da04163fd43100de8291b10') in 0.001176 seconds 
+  Import took 0.012821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059017 seconds.
+  path: Assets/MC dirt stone wall free sample/model/stone wall sample 0830.FBX
+  artifactKey: Guid(286dc4bf30a0a3047ac4b5590e2523c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/model/stone wall sample 0830.FBX using Guid(286dc4bf30a0a3047ac4b5590e2523c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf2fd04b8721694e59f64b404f59cf') in 0.068009 seconds 
+  Import took 0.077809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.279563 seconds.
+  path: Assets/MC dirt stone wall free sample/env
+  artifactKey: Guid(35bd1663240a00345a223f90b98a58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/env using Guid(35bd1663240a00345a223f90b98a58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cd1d46d791a7144598de80094555b8') in 0.002552 seconds 
+  Import took 0.013062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.306278 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.png
+  artifactKey: Guid(093c1ee8ce1afac4a9ce7721f9a53c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.png using Guid(093c1ee8ce1afac4a9ce7721f9a53c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376f131833e3c6acb96aee68ba820b51') in 0.013653 seconds 
+  Import took 0.022411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.png
+  artifactKey: Guid(7ae1137dc223c2e4dac1c5033217e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.png using Guid(7ae1137dc223c2e4dac1c5033217e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8dd123c5ec62cab734a53e96f4772e') in 0.013006 seconds 
+  Import took 0.025441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.png
+  artifactKey: Guid(6a270305118b8cb4bbf5b2e4531b97b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.png using Guid(6a270305118b8cb4bbf5b2e4531b97b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70182c8227e49900e21642d2c725351d') in 0.015372 seconds 
+  Import took 0.031387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009111 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.png
+  artifactKey: Guid(2e56a05bab7373144b5cbc9acf4b6ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.png using Guid(2e56a05bab7373144b5cbc9acf4b6ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1d46183d9bdf26efd70aceee8f5c7a') in 0.014639 seconds 
+  Import took 0.029235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004514 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.png
+  artifactKey: Guid(36c62e41deeae5744ab7e44eafcb53a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.png using Guid(36c62e41deeae5744ab7e44eafcb53a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02307d804f7b094ce9201cb93bf875') in 0.012842 seconds 
+  Import took 0.031197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.png
+  artifactKey: Guid(e4359235031fc37418a04a8e61d9ddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.png using Guid(e4359235031fc37418a04a8e61d9ddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51a2334fae42c76fa0cb3210997cd5b') in 0.023913 seconds 
+  Import took 0.039567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.png
+  artifactKey: Guid(8ea8ce1374f07bc48a7cd4654e910414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.png using Guid(8ea8ce1374f07bc48a7cd4654e910414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6715078b99b5833a41042e89bd7e40da') in 0.024843 seconds 
+  Import took 0.038849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.png
+  artifactKey: Guid(002798d7b788f424ba9ae424f44c349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.png using Guid(002798d7b788f424ba9ae424f44c349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7160a31e1ebcef54ede6d8570796ae1b') in 0.019716 seconds 
+  Import took 0.039485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011731 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.png
+  artifactKey: Guid(bd4ae1603b4b45f4b88f03bf58b4c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.png using Guid(bd4ae1603b4b45f4b88f03bf58b4c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2d963243e318425a29f334896cc126') in 0.032117 seconds 
+  Import took 0.049075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.png
+  artifactKey: Guid(190c0bf717c4c7741bd8c51d053c3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.png using Guid(190c0bf717c4c7741bd8c51d053c3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986349120030684ebe7d570947fa22a2') in 0.018645 seconds 
+  Import took 0.035247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.png
+  artifactKey: Guid(7b3be445bd854194a927e288b7c96506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.png using Guid(7b3be445bd854194a927e288b7c96506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c32e0bca412c9415b6834c4a0340c37') in 0.013439 seconds 
+  Import took 0.030805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.png
+  artifactKey: Guid(c773966e451c2f84ea6c3e8a53d4a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.png using Guid(c773966e451c2f84ea6c3e8a53d4a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b804460bef5937173309fc78c848e') in 0.013741 seconds 
+  Import took 0.028237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.png
+  artifactKey: Guid(52c643e1f44ed124fabb5ce3333c92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.png using Guid(52c643e1f44ed124fabb5ce3333c92f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750ab63b25eb74152eae46919d39b0e6') in 0.016369 seconds 
+  Import took 0.029430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.772464 seconds.
+  path: Assets/MC dirt stone wall free sample/env/LightingData.asset
+  artifactKey: Guid(b1eb48d897cf07f4fb935b4c22981161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/env/LightingData.asset using Guid(b1eb48d897cf07f4fb935b4c22981161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50de9d6a2e50729b04520df6ca97c7a') in 0.004650 seconds 
+  Import took 0.012477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/MC dirt stone wall free sample/env/ReflectionProbe-0.exr
+  artifactKey: Guid(51e3fa7a9477e104c831d77c93c1286d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/env/ReflectionProbe-0.exr using Guid(51e3fa7a9477e104c831d77c93c1286d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a5426fd62292d21bb06af6717fda85') in 0.018951 seconds 
+  Import took 0.027517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.468286 seconds.
+  path: Assets/MC dirt stone wall free sample/material
+  artifactKey: Guid(5978e36994390a24c8538520f36e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material using Guid(5978e36994390a24c8538520f36e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a259a61a72fae7484cd550b3e207d1') in 0.001450 seconds 
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190953 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_ground 0901-01.mat
+  artifactKey: Guid(cd25b4f24ec8ea54192bfa9a19f087e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_ground 0901-01.mat using Guid(cd25b4f24ec8ea54192bfa9a19f087e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2848bdabb615158e9e81b59d33a0cb8c') in 0.025499 seconds 
+  Import took 0.035269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_stone wall 0827-03.mat
+  artifactKey: Guid(6d593f5be66cc7c4388e2610dd31d9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_stone wall 0827-03.mat using Guid(6d593f5be66cc7c4388e2610dd31d9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f31d7c1e130e1991c1eacf5add307f') in 0.020723 seconds 
+  Import took 0.031040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/MC dirt stone wall free sample/material/stone wall 0827-03B 1.mat
+  artifactKey: Guid(ba0241ef47fbe404291ef5b3ec129992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/stone wall 0827-03B 1.mat using Guid(ba0241ef47fbe404291ef5b3ec129992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eaec78530bb6a4992ab36ff37f099b') in 0.136178 seconds 
+  Import took 0.148644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_stone wall 0827-03B.mat
+  artifactKey: Guid(2bdf8545ec0cb014aba01036a909f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_stone wall 0827-03B.mat using Guid(2bdf8545ec0cb014aba01036a909f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812e37876a41d4da0bf4b0c3216c7e84') in 0.020625 seconds 
+  Import took 0.029563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/MC dirt stone wall free sample/material/stone wall 0827-03.mat
+  artifactKey: Guid(e354ebccd684503408955558d8c6961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/stone wall 0827-03.mat using Guid(e354ebccd684503408955558d8c6961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7644cb23e4c2d663306bd0135c37725') in 0.042216 seconds 
+  Import took 0.057543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/MC dirt stone wall free sample/material/ground 0901-01.mat
+  artifactKey: Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/ground 0901-01.mat using Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69d261f32c4cc5b784c6389aae036ce') in 0.044438 seconds 
+  Import took 0.057838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008157 seconds.
+  path: Assets/MC dirt stone wall free sample/material/ground 0901-01.mat
+  artifactKey: Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/ground 0901-01.mat using Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69d261f32c4cc5b784c6389aae036ce') in 0.035663 seconds 
+  Import took 0.048316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4320.316948 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_ground 0901-01.mat
+  artifactKey: Guid(cd25b4f24ec8ea54192bfa9a19f087e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_ground 0901-01.mat using Guid(cd25b4f24ec8ea54192bfa9a19f087e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a65c8f6b9b1ddb42001e97ea8690c6') in 0.345840 seconds 
+  Import took 0.410165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_stone wall 0827-03.mat
+  artifactKey: Guid(6d593f5be66cc7c4388e2610dd31d9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_stone wall 0827-03.mat using Guid(6d593f5be66cc7c4388e2610dd31d9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671d25b59f94d942b548dcedcd6a1a82') in 0.025602 seconds 
+  Import took 0.041041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/MC dirt stone wall free sample/material/stone wall 0827-03B 1.mat
+  artifactKey: Guid(ba0241ef47fbe404291ef5b3ec129992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/stone wall 0827-03B 1.mat using Guid(ba0241ef47fbe404291ef5b3ec129992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02642da1d6b96b776df56f7f64072f27') in 0.230565 seconds 
+  Import took 0.252658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/MC dirt stone wall free sample/material/_stone wall 0827-03B.mat
+  artifactKey: Guid(2bdf8545ec0cb014aba01036a909f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/_stone wall 0827-03B.mat using Guid(2bdf8545ec0cb014aba01036a909f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9d930e612a142f2ee3ab1203e162fd') in 0.024386 seconds 
+  Import took 0.037872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/MC dirt stone wall free sample/material/stone wall 0827-03.mat
+  artifactKey: Guid(e354ebccd684503408955558d8c6961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/stone wall 0827-03.mat using Guid(e354ebccd684503408955558d8c6961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9000eedd96ef3d357f7d0884d350a76') in 0.046544 seconds 
+  Import took 0.063916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/MC dirt stone wall free sample/material/ground 0901-01.mat
+  artifactKey: Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MC dirt stone wall free sample/material/ground 0901-01.mat using Guid(7655db6721d95484e8db372cc08e13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ebccdea4793380789f9dc9a6e25140') in 0.041185 seconds 
+  Import took 0.059401 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.003886 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -245,10 +1726,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1262ms)
 		BeginReloadAssembly (140ms)
+=======
+Registered in 0.018334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2944ms)
+		BeginReloadAssembly (514ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (36ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (48ms)
 		EndReloadAssembly (1064ms)
 			LoadAssemblies (86ms)
@@ -277,14 +1772,47 @@ System memory in use after: 178.3 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4096.
 Total: 3.880700 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.080900 ms MarkObjects: 3.307100 ms  DeleteObjects: 0.158700 ms)
+=======
+			CreateAndSetChildDomain (293ms)
+		EndReloadAssembly (2303ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (574ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1091ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (899ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 399.6 MB.
+System memory in use after: 399.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5011.
+Total: 6.278271 ms (FindLiveObjects: 0.667883 ms CreateObjectMapping: 0.195950 ms MarkObjects: 4.735814 ms  DeleteObjects: 0.677204 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< Updated upstream
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -499,6 +2027,7 @@ Start importing Assets/Rabbits/Materials/Rabbit_Eyes.mat using Guid(d63f66543778
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.003660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -509,10 +2038,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1332ms)
 		BeginReloadAssembly (122ms)
+=======
+Registered in 0.015110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.369 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2370ms)
+		BeginReloadAssembly (203ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (39ms)
 		EndReloadAssembly (1158ms)
 			LoadAssemblies (81ms)
@@ -541,14 +2084,47 @@ System memory in use after: 192.3 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4142.
 Total: 4.041200 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.091800 ms MarkObjects: 3.410900 ms  DeleteObjects: 0.185600 ms)
+=======
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2082ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1026ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (848ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 400.0 MB.
+System memory in use after: 399.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5025.
+Total: 5.457391 ms (FindLiveObjects: 0.410750 ms CreateObjectMapping: 0.154518 ms MarkObjects: 4.242067 ms  DeleteObjects: 0.648701 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< Updated upstream
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -579,6 +2155,7 @@ Start importing Assets/Rabbits/Model/Rabbit.fbx using Guid(0962bdca27eaca34aaa15
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.004153 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -589,10 +2166,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1234ms)
 		BeginReloadAssembly (115ms)
+=======
+Registered in 0.004856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3034ms)
+		BeginReloadAssembly (235ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (41ms)
 		EndReloadAssembly (1067ms)
 			LoadAssemblies (76ms)
@@ -677,20 +2268,102 @@ System memory in use after: 192.6 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4182.
 Total: 3.984000 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.089400 ms MarkObjects: 3.387800 ms  DeleteObjects: 0.173800 ms)
+=======
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (2698ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (1146ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 400.4 MB.
+System memory in use after: 400.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5039.
+Total: 5.298523 ms (FindLiveObjects: 0.449315 ms CreateObjectMapping: 0.215276 ms MarkObjects: 3.848318 ms  DeleteObjects: 0.784569 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< Updated upstream
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 3164.158681 seconds.
+  path: Assets/Flying_Tree/Materials
+  artifactKey: Guid(e191fe8b9c29ca44dab2ce89a7830c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Materials using Guid(e191fe8b9c29ca44dab2ce89a7830c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e069868697f444b616fdb9035ee892') in 0.012216 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006001 seconds.
+  path: Assets/Flying_Tree/Materials/Flying_Tree_Diffuse.mat
+  artifactKey: Guid(b1ff8ef0a705a3d4f9ea1b10c9d42214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Materials/Flying_Tree_Diffuse.mat using Guid(b1ff8ef0a705a3d4f9ea1b10c9d42214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198057b08a1a1e6f9a74362996ef7f9d') in 0.185126 seconds 
+  Import took 0.194297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Flying_Tree/Materials/Foliage_Diffuse.mat
+  artifactKey: Guid(8b7e121c91adfcb48ac2ea2eb6057a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Materials/Foliage_Diffuse.mat using Guid(8b7e121c91adfcb48ac2ea2eb6057a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316cb1b64337d5ab5fea589587b7683') in 0.023558 seconds 
+  Import took 0.032651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.864698 seconds.
+  path: Assets/Flying_Tree/Prefab
+  artifactKey: Guid(828f2dfad11ceee43acdd58acdf16ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Prefab using Guid(828f2dfad11ceee43acdd58acdf16ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326c6bb307deffe786f1aa0641575c06') in 0.003965 seconds 
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593904 seconds.
+  path: Assets/Flying_Tree/Texture
+  artifactKey: Guid(0e8f8f5bcc68ac746b46108aaa9f994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Texture using Guid(0e8f8f5bcc68ac746b46108aaa9f994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30ec5b858b6a78f815e2e90e5cba3da') in 0.002277 seconds 
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669937 seconds.
+  path: Assets/Flying_Tree/Prefab/Flying_Tree.prefab
+  artifactKey: Guid(581698b96e6438c42832937fad6f7afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying_Tree/Prefab/Flying_Tree.prefab using Guid(581698b96e6438c42832937fad6f7afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3b40c23384b5fb1e5851036350ec3a') in 0.036342 seconds 
+  Import took 0.046834 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.003798 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -701,10 +2374,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1255ms)
 		BeginReloadAssembly (118ms)
+=======
+Registered in 0.015208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2273ms)
+		BeginReloadAssembly (213ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (36ms)
 		EndReloadAssembly (1084ms)
 			LoadAssemblies (77ms)
@@ -2456,16 +4143,48 @@ System memory in use after: 207.6 MB.
 
 Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 4721.
 Total: 4.276900 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.309500 ms  DeleteObjects: 1.454500 ms)
+=======
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1961ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (961ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (798ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 401.1 MB.
+System memory in use after: 400.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5089.
+Total: 5.163982 ms (FindLiveObjects: 0.443766 ms CreateObjectMapping: 0.181907 ms MarkObjects: 3.901850 ms  DeleteObjects: 0.635265 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< Updated upstream
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

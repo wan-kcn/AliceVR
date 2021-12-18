@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486b5e28864f9a94b979b9620ce5006d, type: 3}
   m_Name: ConformanceAutomationFeature Android
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_enabled: 0
   nameUi: Conformance Automation
   version: 0.0.1
@@ -143,6 +144,34 @@ MonoBehaviour:
   priority: 0
   required: 0
 --- !u!114 &-1997841912378693480
+=======
+  features:
+  - {fileID: -3487414903086678862}
+  - {fileID: 9121426910252453329}
+  - {fileID: 3666166282227212931}
+  - {fileID: 7280873865188352369}
+  - {fileID: 1062755122703550481}
+  - {fileID: 7240352565983821643}
+  - {fileID: -481826951573996668}
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
+--- !u!114 &-6282924555817588038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: iPhone
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
+--- !u!114 &-5567539658216589322
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,11 +291,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: Open XR Package Settings
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   Keys: 0100000007000000
   Values:
   - {fileID: -1226986286403838580}
   - {fileID: 1594113837894033748}
 --- !u!114 &1594113837894033748
+=======
+  Keys: 01000000070000000d00000004000000
+  Values:
+  - {fileID: -7600071282340180763}
+  - {fileID: -6687222570864608011}
+  - {fileID: 8415105298037813762}
+  - {fileID: -6282924555817588038}
+--- !u!114 &1062755122703550481
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
