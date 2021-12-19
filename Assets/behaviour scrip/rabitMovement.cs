@@ -17,6 +17,14 @@ public class rabitMovement : MonoBehaviour
         target = GameObject.Find("waypoint1");
     }
 
+    void sync(){
+        Vector3 targetDirection = new Vector3(0f, 0f, 0f) - new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        float singleStep = 10f * Time.deltaTime;
+        Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, singleStep, 0.0f);
+        Debug.DrawRay(transform.position, newDirection, Color.red);
+        transform.rotation = Quaternion.LookRotation(newDirection);
+    }
+
     void turnFace(){
         Vector3 targetDirection = player.position - parent.position;
         float singleStep = 3f * Time.deltaTime;
@@ -57,6 +65,7 @@ public class rabitMovement : MonoBehaviour
         if(rabbit_status == "moving"){
             turnFace2();
         }
+        // sync();
 
         Vector3 a = parent.position;
         Vector3 b = target.transform.position;
