@@ -17,8 +17,8 @@ public class rabitMovement : MonoBehaviour
     // [SerializeField] private Transform target9;
     [SerializeField] private float t;
     [SerializeField] private GameObject target;
-    [SerializeField] private string rabbit_status;
-    private int count = 1;
+    public string rabbit_status;
+    public int count = 1;
     // Start is called before the first frame update
     void Start()
     {
