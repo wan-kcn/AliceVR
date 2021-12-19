@@ -9,24 +9,27 @@ public class textManage : MonoBehaviour
 {
     public TMP_Text rabitText;
 
-    // Start is called before the first frame update
     void Start()
     {
         rabitText.alignment = TextAlignmentOptions.Center;
     }
 
-    // Update is called once per frame
     void Update()
     {
         int count = GameObject.Find("rabitBody").GetComponent<rabitMovement>().count;
         string status = GameObject.Find("rabitBody").GetComponent<rabitMovement>().rabbit_status;
+        string wait_status = GameObject.Find("rabitBody").GetComponent<rabitMovement>().wait_status;
 
         rabitText.text = count.ToString();
 
-        if(status == "moving"){
-            rabitText.GetComponent<MeshRenderer>().enabled = false;
-        }else{
-            rabitText.GetComponent<MeshRenderer>().enabled = true;
+        if(status == "moving" && wait_status == "false"){
+            rabitText.gameObject.SetActive(false);
+        }else if(status == "stop" && wait_status == "true"){
+            rabitText.gameObject.SetActive(true);
+        }
+
+        if(count >= 10){
+            this.gameObject.SetActive(false);
         }
     }
 }
