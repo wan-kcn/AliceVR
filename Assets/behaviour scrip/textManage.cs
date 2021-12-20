@@ -8,8 +8,10 @@ using System;
 public class textManage : MonoBehaviour
 {
     public TMP_Text rabitText;
+    public TMP_Text chaName;
     [SerializeField] private string dialog;
-    private string[] cars= {"Alice : What a cute bunny!", "Alice : But, hmmm why is there a rabbit in the park?", "Alice : Are you lost from your owner, little guy?", "Alice : I think I should go closer.", "", "Alice : Wait! Don't run away from me!", "", "Alice : Hmm…. a cave in the park? I think that weird bunny might be inside."};
+    [SerializeField] private RawImage box;
+    private string[] cars= {"What a cute bunny!", "But, hmmm why is there a rabbit in the park?", "Are you lost from your owner, little guy?", "I think I should go closer.", "", "Wait! Don't run away from me!", "", "Hmm…. a cave in the park? I think that weird bunny might be inside."};
 
     void Start()
     {
@@ -27,16 +29,26 @@ public class textManage : MonoBehaviour
 
         if(status == "moving" && wait_status == "false"){
             rabitText.gameObject.SetActive(false);
+            box.gameObject.SetActive(false);
+            chaName.gameObject.SetActive(false);
         }else if(status == "stop" && wait_status == "true"){
             rabitText.gameObject.SetActive(true);
+            if(rabitText.text != ""){
+                box.gameObject.SetActive(true);
+                chaName.gameObject.SetActive(true);
+            }
         }
         if(status == "stop" && wait_status == "false"){
             rabitText.gameObject.SetActive(false);
+            box.gameObject.SetActive(false);
+            chaName.gameObject.SetActive(false);
         }
 
         if(count >= 10){
             rabitText.gameObject.SetActive(false);
             this.gameObject.SetActive(false);
+            box.gameObject.SetActive(false);
+            chaName.gameObject.SetActive(false);
         }
     }
 }
