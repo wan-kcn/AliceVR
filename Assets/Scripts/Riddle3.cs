@@ -14,7 +14,7 @@ public class Riddle3 : MonoBehaviour
     }
 
     public void onhit() {
-        if (word.text == "time") {
+        if (word.text == "TIME") {
             Debug.Log("true");
             flower.SetActive(true);
             checkButton.SetActive(false);
