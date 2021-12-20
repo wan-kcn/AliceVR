@@ -5,6 +5,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Riddle2 : MonoBehaviour
 {
+    public GameObject checkbutton;
+    public GameObject restartbutton;
+    public GameObject flower;
     public XRSocketInteractor black_king_socket;
     public XRSocketInteractor black_knight_socket;
     public XRSocketInteractor black_queen_socket;
@@ -30,6 +33,9 @@ public class Riddle2 : MonoBehaviour
         if (black_king == "Chess King Black" && black_knight == "Chess Knight Black" && black_queen == "Chess Queen Black" 
         && white_bishop == "Chess Bishop White" && white_rook == "Chess Rook White" && white_knight == "Chess Knight White" && white_pawn == "Chess Pawn White") {
             Debug.Log(true);
+            flower.SetActive(true);
+            checkbutton.SetActive(false);
+            restartbutton.SetActive(false);
         }
     }
 }
