@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class rabitMovement : MonoBehaviour
 {
@@ -8,10 +9,12 @@ public class rabitMovement : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float t;
     [SerializeField] private GameObject target;
-    public string rabbit_status;
+    public string rabbit_status = "init";
     public int count = 1;
     private float waitTime = 0f;
     public string wait_status = "false";
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform endPoint;
     void Start()
     {
         target = GameObject.Find("waypoint1");
@@ -62,15 +65,24 @@ public class rabitMovement : MonoBehaviour
 
     void Update()
     {
-        if(rabbit_status == "moving"){
-            turnFace2();
-        }
-        // sync();
-
         Vector3 a = parent.position;
         Vector3 b = target.transform.position;
 
+        if(rabbit_status == "moving"){
+            turnFace2();
+            animator.SetInteger("AnimIndex", 1);
+            animator.SetTrigger("Next");
+        }else{
+            animator.SetInteger("AnimIndex", 0);
+            animator.SetTrigger("Next");
+        }
+
         float dist = Vector3.Distance(player.position, a);
+        float warp = Vector3.Distance(player.position, endPoint.position);
+
+        if(warp <= 2){
+            SceneManager.LoadScene("CaveScene", LoadSceneMode.Single);
+        }
 
         if(dist <= 20){
             rabbit_status = "moving";
