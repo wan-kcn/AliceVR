@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ParkScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/CastleScene.unity
+    guid: d6276dfde1758f445b61c313c0038e49
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 285918b47102aeb4cacc69dcf4a9ee01, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: a5338052dfbd690409a6fa6851b6d917, type: 2}
