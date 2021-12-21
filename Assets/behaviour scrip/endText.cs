@@ -23,10 +23,10 @@ public class endText : MonoBehaviour
             aliceText.gameObject.SetActive(false);
             madText.gameObject.SetActive(true);
         }
-        if(num > 2){
-            aliceText.gameObject.SetActive(false);
-            madText.gameObject.SetActive(false);
-        }
+        // if(num > 2){
+        //     aliceText.gameObject.SetActive(false);
+        //     madText.gameObject.SetActive(false);
+        // }
         num++;
     }
 
