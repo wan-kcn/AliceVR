@@ -23,11 +23,11 @@ public class textManage : MonoBehaviour
         int count = GameObject.Find("rabitBody").GetComponent<rabitMovement>().count;
         string status = GameObject.Find("rabitBody").GetComponent<rabitMovement>().rabbit_status;
         string wait_status = GameObject.Find("rabitBody").GetComponent<rabitMovement>().wait_status;
-        dialog = cars[count-1];
-
-        if(count-1 <= 8){
-            rabitText.text = dialog;
+        if(count-1 <= 7){
+            dialog = cars[count-1];
         }
+
+        rabitText.text = dialog;
 
         if(status == "moving" && wait_status == "false"){
             rabitText.gameObject.SetActive(false);
@@ -46,9 +46,8 @@ public class textManage : MonoBehaviour
             chaName.gameObject.SetActive(false);
         }
 
-        if(count >= 10){
+        if(count >= 9){
             rabitText.gameObject.SetActive(false);
-            this.gameObject.SetActive(false);
             box.gameObject.SetActive(false);
             chaName.gameObject.SetActive(false);
         }
