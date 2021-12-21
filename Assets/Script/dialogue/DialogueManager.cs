@@ -38,6 +38,7 @@ public class DialogueManager : MonoBehaviour
         Dialogue d = sentences.Dequeue();
         Debug.Log(d.name);
         dialogueText.text = d.sentence;
+        nameText.text = d.name;
 
     }
 
