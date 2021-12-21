@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckHitCandy : MonoBehaviour
 {
-    Rigidbody teapod;
+    public Rigidbody teapod;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,9 +17,18 @@ public class CheckHitCandy : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "CandyHit")
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     if(other.tag == "CandyHit")
+    //     {
+    //         CollectedListener.hitted = true;
+    //         teapod.useGravity = true;
+    //     }
+    // }
+
+    private void OnCollisionEnter(Collision other) {
+        Debug.Log(other.gameObject.tag);
+        if(other.gameObject.tag == "CandyHit")
         {
             CollectedListener.hitted = true;
             teapod.useGravity = true;
