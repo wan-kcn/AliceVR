@@ -95,7 +95,7 @@ public class rabitMovement : MonoBehaviour
             parent.position = Vector3.MoveTowards(a, (new Vector3(b.x, a.y, b.z)), t);
             if(parent.position.x == target.transform.position.x && parent.position.z == target.transform.position.z){
                 if(wait_status == "false"){
-                    StartCoroutine(Countdown(1));
+                    StartCoroutine(Countdown(4));
                     wait_status = "true";
                 }else{
                     turnFace();

@@ -17759,7 +17759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parent: {fileID: 1952838931}
   player: {fileID: 1727255161}
-  t: 0.02
+  t: 0.04
   target: {fileID: 0}
   grouper: {fileID: 1167219098}
   rabbit_status: 
