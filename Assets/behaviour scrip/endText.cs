@@ -48,7 +48,7 @@ public class endText : MonoBehaviour
     void Update()
     {
         if(wait_status == "false"){
-            StartCoroutine(Countdown(6));
+            StartCoroutine(Countdown(2));
         }
     }
 }

@@ -86,8 +86,7 @@ public class rabitMovement : MonoBehaviour
         float warp = Vector3.Distance(player.position, endPoint.position);
 
         if(warp <= 2){
-            //SceneManager.LoadScene("CaveScene", LoadSceneMode.Single);
-            SceneManager.LoadScene("CastleScene", LoadSceneMode.Single);
+            SceneManager.LoadScene("CaveScene", LoadSceneMode.Single);
         }
 
         if(dist <= 20){

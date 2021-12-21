@@ -21263,7 +21263,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &443083275
 MeshRenderer:
@@ -21322,7 +21322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443083272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.5104, y: 5.1, z: 262.8}
+  m_LocalPosition: {x: 89.5104, y: 2.81, z: 274.72}
   m_LocalScale: {x: 19.85168, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26008,7 +26008,7 @@ MonoBehaviour:
   m_RigBaseGameObject: {fileID: 508829884}
   m_CameraFloorOffsetObject: {fileID: 628451178}
   m_CameraGameObject: {fileID: 470630407}
-  m_TrackingOriginMode: 1
+  m_TrackingOriginMode: 2
   m_TrackingSpace: 3
   m_CameraYOffset: 1.36144
 --- !u!4 &508829890
@@ -26019,8 +26019,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508829884}
   m_LocalRotation: {x: -0, y: -0.99998, z: -0, w: 0.006336141}
-  m_LocalPosition: {x: 53.8, y: 2.2, z: 78.21}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 53.8, y: 2.2, z: 78.6}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 628451179}
   m_Father: {fileID: 0}
@@ -69304,10 +69304,6 @@ MonoBehaviour:
   dialogues:
   - name: Alice
     sentence: I wonder where he is. Can you see him?
-  - name: Alice
-    sentence: 111111111111111111111111
-  - name: 5555555555555
-    sentence: 515684884
 --- !u!4 &1437142307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3388019133098725514, guid: 62f461b2f53bc48e6963cbe61aa29e24, type: 3}
@@ -96357,7 +96353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2023786349
 Light:
   m_ObjectHideFlags: 0

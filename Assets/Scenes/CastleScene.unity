@@ -4099,7 +4099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   XR_rig: {fileID: 980603166}
   teleporter: {fileID: 151313781}
-  scene: 
+  scene: endScene
 --- !u!1 &156953947
 GameObject:
   m_ObjectHideFlags: 0
