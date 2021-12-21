@@ -25,7 +25,9 @@ public class textManage : MonoBehaviour
         string wait_status = GameObject.Find("rabitBody").GetComponent<rabitMovement>().wait_status;
         dialog = cars[count-1];
 
-        rabitText.text = dialog;
+        if(count-1 <= 8){
+            rabitText.text = dialog;
+        }
 
         if(status == "moving" && wait_status == "false"){
             rabitText.gameObject.SetActive(false);
