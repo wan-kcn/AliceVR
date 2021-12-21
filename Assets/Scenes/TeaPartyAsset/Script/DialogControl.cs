@@ -145,10 +145,10 @@ public class DialogControl : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
 
-        TextObj[4].SetActive(false);
         TextObj[3].SetActive(false);
         TextObj[2].SetActive(false);
         TextObj[1].SetActive(false);
+        TextObj[0].SetActive(false);
     }
 
     IEnumerator AutoClick()
