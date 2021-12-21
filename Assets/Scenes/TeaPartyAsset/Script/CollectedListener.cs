@@ -14,7 +14,8 @@ public class CollectedListener : MonoBehaviour
     static public bool hitted = false;
 
     public GameObject teapod;
-
+    public GameObject[] madHatton;
+    //0:Table Stand, 1:Door Stand
     public GameObject Portal;
 
     public bool[] checkCollected = {false, false, false};
@@ -49,6 +50,10 @@ public class CollectedListener : MonoBehaviour
         if(checkCollected[0] && checkCollected[1] && checkCollected[2])
         {
             Portal.SetActive(true);
+            madHatton[0].SetActive(false);
+            madHatton[1].SetActive(true);
+            var script = GetComponent<DialogControl>();
+            script.ChangeDialog();
         }
     }
 }
