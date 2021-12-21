@@ -6,6 +6,7 @@ public class endText : MonoBehaviour
 {
     [SerializeField] private GameObject aliceText;
     [SerializeField] private GameObject madText;
+    [SerializeField] private GameObject madModel;
     private int num = 1;
     public string wait_status = "false";
     // Start is called before the first frame update
@@ -18,10 +19,12 @@ public class endText : MonoBehaviour
         if(num == 1){
             aliceText.gameObject.SetActive(true);
             madText.gameObject.SetActive(false);
+            madModel.gameObject.SetActive(false);
         }
         if(num == 2){
             aliceText.gameObject.SetActive(false);
             madText.gameObject.SetActive(true);
+            madModel.gameObject.SetActive(true);
         }
         // if(num > 2){
         //     aliceText.gameObject.SetActive(false);
